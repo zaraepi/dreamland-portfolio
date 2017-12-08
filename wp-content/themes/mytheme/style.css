@@ -1,0 +1,232 @@
+/*
+Theme Name: My Dreamland
+Theme URI: http://wordpress.org/themes/my-Dreamland
+Author: 17ADWU02
+Author URI: http://wordpress.org/
+Description: Our theme practice
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*https://wordpress.stackexchange.com/questions/60292/wp-query-to-get-child-pages-of-current-page*/
+
+/*upload video*/
+
+/*https://www.w3schools.com/tags/tag_video.asp
+http://php.net/manual/en/control-structures.if.php*/
+
+/*for mobile phone - inclusive*/
+@media only screen and (min-width:20em) {
+
+    /*  body:before {
+          content: 'mobile';
+          background-color: rgba(0, 0, 0, 0.2);
+          position: fixed;
+          padding-top: 3.5em;
+          margin-right: 5em;
+          right: 0;
+          top: 0;
+          color: black;
+          z-index: 500;
+          box-sizing: border-box;
+      }*/
+    .flex-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-pad {
+        flex: 0 0 100%;
+    }
+
+    .h4-works, .h3-footer {
+        font-family: 'Poppins' !important;
+        text-transform: uppercase;
+        font-weight: 600;
+        color: black;
+    }
+
+    .h3-works, .h6-footer, .white, #fmail {
+        font-family: 'Poppins' !important;
+        text-transform: none !important;
+        font-size: 1em !important;
+        letter-spacing: -0.02em;
+        line-height: 1.2em !important;
+        font-weight: 200;
+    }
+
+    .works-item-inner p > span {
+        font-family: 'Poppins' !important;
+        font-size: 2em !important;
+        font-weight: 600;
+    }
+
+    nav.mastnav ul li a {
+        color: #aaa;
+        border-color: #aaa;
+        font-family: 'Poppins';
+        font-family: 1em;
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+
+    .works-filter li a {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        font-family: 'Poppins';
+        font-weight: 300;
+    }
+
+    .promo-left {
+        padding-left: 25px !important;
+        font-family: 'Poppins';
+    }
+
+    .mailto-left {
+        margin-left: 25px !important;
+    }
+
+    .about-main-img {
+        width: 100% !important;
+    }
+
+    .btn-krome {
+        font-family: 'Poppins' !important;
+    }
+
+    .video-size {
+        height: 20em;
+        width: 20em;
+        margin: auto;
+        display: block;
+    }
+
+    .works-item-inner {
+        text-align: left;
+        background-color: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+        height: 100%;
+        top: 0;
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+
+}
+
+nav.mastnav ul li a {
+    color: #aaa;
+    border-color: #aaa;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    font-family: 1em;
+    font-size: 0.9em;
+}
+
+/*--------------------------------------------------------------------------------*/
+
+/*for small tablet*/
+@media only screen and (min-width:40em) {
+
+    /* body:before {
+         content: 'tablet';
+         background-color: rgba(0, 0, 0, 0.2);
+         position: fixed;
+         padding-top: 3.5em;
+         margin-right: 5em;
+         right: 0;
+         top: 0;
+         color: black;
+         z-index: 500;
+         box-sizing: border-box;
+     }*/
+
+        .video-size {
+        height: 40em;
+        width: 40em;
+        margin: auto;
+        display: block;
+    }
+}
+
+/*for small tablet - exclusive - use with care*/
+@media only screen and (min-width:40em) and (max-width:59.99999em) {
+}
+
+/*for tablet/small laptop - inclusive*/
+@media only screen and (min-width:60em) {
+
+    /* body:before {
+         content: 'laptop';
+         background-color: rgba(0, 0, 0, 0.2);
+         position: fixed;
+         padding-top: 3.5em;
+         right: 0;
+         top: 0;
+         color: black;
+         z-index: 100;
+         box-sizing: border-box;
+     }*/
+    .flex-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-pad {
+        flex: 0 0 50%;
+    }
+
+    .video-size {
+        height: 60em;
+        width: 60em;
+        margin: auto;
+        display: block;
+    }
+
+    
+}
+
+/*for desktop - inclusive*/
+@media only screen and (min-width:80em) {
+
+    /* body:before {
+         content: 'desktop';
+         background-color: rgba(0, 0, 0, 0.2);
+         position: fixed;
+         padding-top: 5em;
+         right: 0;
+         top: 0;
+         color: black;
+         z-index: 100;
+         box-sizing: border-box;
+     }*/
+    .flex-row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .inner-pad {
+        flex: 0 0 50%;
+    }
+
+      .video-size {
+        height: 80em;
+        width: 80em;
+        margin: auto;
+        display: block;
+    }
+
+}
+
+/*body{
+border:3px red solid;
+}*/

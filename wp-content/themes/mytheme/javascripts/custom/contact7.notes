@@ -1,0 +1,13 @@
+<article><input type="text" placeholder="Your Name" id="name" name="name" size="100" class="border-form white font4light"></article>
+<article><input type="text" placeholder="Valid email ID" name="email" id="email" size="30" class="border-form white font4light"></article>
+<article><textarea placeholder="Your Message" name="message" cols="40" rows="5" id="msg" class="border-form white font4light"></textarea><div class="btn-wrap  text-left"><button class="btn  btn-krome btn-krome-dark" id="submit" name="submit" type="submit">Send Message</button></div></article>
+
+
+
+
+
+https://contactform7.com/redirecting-to-another-url-after-submissions/
+
+
+https://developer.wordpress.org/reference/functions/add_submenu_page/
+                             
